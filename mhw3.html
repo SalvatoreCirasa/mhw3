@@ -1,0 +1,130 @@
+<html>   
+
+    <head>         
+        <title>Sicily express</title>                                                                              
+        <link rel='stylesheet' href= 'mhw3.css'> 
+        <script src = "contents.js" defer></script>
+        <script src = "script.js" defer></script>
+        <meta name="viewport" content = "width=device-width, initial-scale = 1">  
+        <meta charset = "utf-8">  
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap" rel="stylesheet">                                 
+    </head>                                                                                     
+                                       
+    <body>
+        
+            <nav> 
+                <a class='flex-item1' href="">Home</a>
+                <a class='flex-item1' href="">Servizi</a>
+                <a class='flex-item1' href="">Contattaci</a>
+                <a class='flex-item1' href="">Aiuto</a>
+                <a class='flex-item1' href="">News</a>
+                <a class='flex-item1' href="">Accedi</a>
+
+                <div id="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </nav>
+
+            <header> 
+                <div id="Overlay"></div>  
+                <h1> Sicily Express </h1>
+            </header>
+
+            <section id=coronavirus>
+                <div class=contenitore_testo>
+                    <p>Evita il contagio da Coronavirus restando a casa. <br> alla spedizione del tuo pacco in totale sicurezza ci pensiamo noi!</p>
+                </div>
+                <div id='dati_covid19'>
+                    <!--Implementati Dinamicamente-->
+                </div>
+            </section>
+
+            <section id='presentazione'> 
+                        <div class='info' >
+                            <img src="https://cdn77.pressenza.com/wp-content/uploads/2018/12/8DB03F46-2F33-4D30-B1D6-F6D3C5CFA3BB-720x485.jpeg">
+                            <h1 class='titolo'>Novità e Vantaggi</h1>
+                            <p class='paragrafo'>-Utilizza subito la nostra nuova spedizione con drone. <br> -Invia o Ricevi piccoli pacchi da comuni vicini al tuo con un solo click! <br> -Spedizione gratuita per la tua prima consegna!</p>
+                            <a href="">dettagli</a>
+                        </div>
+
+                        <div class='info'>
+                            <img src="https://www.orizzontescuola.it/wp-content/uploads/2021/01/Sicilia-720x485.jpg">
+                            <h1 class='titolo'>Spedizione Regionale</h1>
+                            <p class='paragrafo'>-Spedisci in tutta la Sicilia con una velocità mai vista fin'ora grazie ai nostri operatori disponibili H24!<br> -Consegna e Spedizione disponibile anche nei week-end. </p>
+                            <a href="">dettagli</a>
+                        </div>
+
+                        <div id='div_meteo'>
+
+                                <div class=info_meteo>
+                                    <h1 class='title_info_meteo'>Sfrutta i nostri servizi!</h1>
+                                    <p class='paragrafo_info_meteo'>Con la spedizione tramite drone le condizioni climatiche sono importanti! <br> Scopri subito le condizioni meteo della tua provincia prima di effettuare una spedizione!</p>
+                                </div>
+
+                                <form id='form2'>
+                                    Selezionare una provincia :
+                                    <select name='provincia' id='provincia'>
+                                        <option value="Siracusa">Siracusa</option>
+                                        <option value="Catania">Catania</option>
+                                        <option value="Messina">Messina</option>
+                                        <option value="Palermo">Palermo</option>
+                                        <option value="Trapani">Trapani</option>
+                                        <option value="Ragusa">Ragusa</option>
+                                        <option value="Caltanissetta">Caltanissetta</option>
+                                        <option value="Agrigento">Agrigento</option>
+                                        <option value="Enna">Enna</option>
+                                    </select>
+
+                                    <input type='submit' id='submit1' value='Cerca'>
+                                </form>
+                                <section id='visualizza_meteo'>
+                                    <!--implementata dinamicamente-->
+                                </section>
+
+                        </div>
+            </section>
+
+            <section id = "question-name">
+                <h1 class = 'titolo'>scopri subito tutti i nostri Droni !</h1>
+            </section>
+            
+            <section class= "preferiti hidden">
+                <h1>PREFERITI</h1>
+               <!--implementato dinamicamente-->
+            </section>
+
+            <section id = "ricerca">
+                <h1>TUTTI I DRONI:</h1>
+                <p> ricerca</p>
+                <input id="cerca" type='text'>
+            </section>
+
+            <section id="griglia">
+                <!--implementata dinamicamente-->
+            </section>
+
+            <section id="free-gift">
+                <h1>Super Promozione</h1>
+                <p class='description'>Ogni 5 spedizioni utilizzando i nostri servizi <br> riceverai un libro a tua scelta in regalo!</p>
+                <p class='guida-utente'>cerca subito il tuo libro e scopri se è presente nei nostri magazzini!</p>
+                <form id='form1'>
+                    inserisci il titolo di un libro
+                    <input type='text' id='libro'>
+                    <input type='submit' id='submit' value='Cerca'>
+                </form>
+
+                <section id='library-view'>
+                    <!--implementato dinamicamente-->
+                </section>
+            </section>
+            
+            <footer> 
+                <address>Studente: Cirasa Salvatore  <br>   Matricola: O46001676</address>
+            </footer>
+
+    </body>
+</html>
